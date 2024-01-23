@@ -1,6 +1,6 @@
-package Multiplication;
+package Logical_Programs;
 
-public class MultiplicationofTwoNumbers
+public class A_MultiplicationofTwoNumbers_01
 {
 	public static void main(String[]args)
 	{
@@ -10,7 +10,7 @@ public class MultiplicationofTwoNumbers
 		
 		for(int i=1; i<=B; i++)
 		{
-			S = S+A; //0+10=10, 10+10=20, 20+10=30, 30+10=40, 40+10=50;
+			S = S+A; 
 		}
 		
 		System.out.println("Multiplication of Two Numbers is : "+S);
